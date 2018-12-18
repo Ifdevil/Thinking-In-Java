@@ -1,6 +1,4 @@
-package thinkingInJava.chapter15.section8;
-
-import java.util.Map;
+package thinkingInJava.chapter15;
 
 /**
  * 擦除的补偿

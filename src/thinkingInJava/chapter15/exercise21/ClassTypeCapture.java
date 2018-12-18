@@ -1,4 +1,4 @@
-package thinkingInJava.chapter15.section8.exercise21;
+package thinkingInJava.chapter15.exercise21;
 
 import java.util.HashMap;
 import java.util.Map;
