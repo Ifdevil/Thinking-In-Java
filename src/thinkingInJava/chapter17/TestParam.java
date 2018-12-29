@@ -1,5 +1,7 @@
 package thinkingInJava.chapter17;
 
+import java.util.Arrays;
+
 /**
  * 容器性能测试
  */
@@ -28,6 +30,13 @@ public class TestParam {
             vals[i] = Integer.decode(values[i]);
         }
         return array(vals);
+    }
+
+    public static void main(String[] args) {
+        TestParam[] defaultParams = TestParam.array(10,5000,100,5000,1000,5000,10000,500);
+        for (TestParam testParam:defaultParams){
+            System.out.println(testParam.size);
+        }
     }
 
 }
