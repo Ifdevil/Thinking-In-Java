@@ -17,6 +17,8 @@ public class test {
         for (Object i:set){
             System.out.println(i.toString());
         }
+        System.out.println((1<<2) & -107);
+
     }
 }
 
